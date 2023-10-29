@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7453262d-e27d-41f4-94a6-8b4dd83d4c06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/det/header.js" afterDir="false" />
+    <list default="true" id="7453262d-e27d-41f4-94a6-8b4dd83d4c06" name="Changes" comment="Create header.js">
+      <change afterPath="$PROJECT_DIR$/src/det/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/det/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/det/header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -27,9 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2XP2ze5hEJZwX3Hjb8xR1z7B676" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,6 +49,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "header",
+    "last_opened_file_path": "/home/source/repos/prof-testium/src/images",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +60,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -79,8 +88,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698516657942</updated>
-      <workItem from="1698516658940" duration="1708000" />
+      <workItem from="1698516658940" duration="1785000" />
+      <workItem from="1698545143855" duration="7460000" />
     </task>
+    <task id="LOCAL-00001" summary="Create header.js">
+      <option name="closed" value="true" />
+      <created>1698518432052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698518432052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create header.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create header.js" />
   </component>
 </project>
