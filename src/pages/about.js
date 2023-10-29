@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Root from "./root";
 
 
 class About extends React.Component {
@@ -10,9 +8,7 @@ class About extends React.Component {
 
 
     render() {
-        return (
-            <h1>What?</h1>
-        );
+        return <h1>What?</h1>;
     }
 }
 

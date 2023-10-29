@@ -1,0 +1,35 @@
+.garage {
+    width: 100%;
+    margin: auto;
+
+    border-top: black 1px solid;
+}
+
+
+.garage_block {
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.garage_top {
+    display: flex;
+    padding: 10px;
+}
+
+
+.garage_feedback {
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+
+    display: flex;
+}
+
+
+.garage_submit {
+    padding: 10px;
+}

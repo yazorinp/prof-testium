@@ -1,15 +1,16 @@
 import React from 'react';
 
-class Bugs extends React.Component {
+
+class Register extends React.Component {
     constructor(props) {
         super(props);
     }
 
 
     render() {
-        return <h1>Bug!</h1>;
+        return <h1>Bug</h1>;
     }
 }
 
 
-export default Bugs;
+export default Register;

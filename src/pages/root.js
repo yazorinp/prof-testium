@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from '../det/header'
+import {viewHeader, viewHeaderBottom} from "../header/header";
+import {viewGarage} from "../garage/garage";
 
 class Root extends React.Component {
     constructor(props) {
@@ -10,7 +11,10 @@ class Root extends React.Component {
     render() {
         return (
             <div>
-                <Header/>
+                {viewHeader()}
+                {viewHeaderBottom()}
+                <h1>Доброе утро!</h1>
+                {viewGarage()}
             </div>
         );
     }
