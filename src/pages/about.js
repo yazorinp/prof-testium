@@ -1,4 +1,6 @@
 import React from 'react';
+import {viewHeader, viewHeaderBottom} from "../header/header";
+import {viewGarage} from "../garage/garage";
 
 
 class About extends React.Component {
@@ -8,7 +10,17 @@ class About extends React.Component {
 
 
     render() {
-        return <h1>What?</h1>;
+        return (
+            <div>
+                {viewHeader()}
+                {viewHeaderBottom()}
+                <div className='body'>
+                    <h1>О нас</h1>
+                    <p>Пусто</p>
+                </div>
+                {viewGarage()}
+            </div>
+        );
     }
 }
 

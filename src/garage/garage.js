@@ -66,15 +66,15 @@ function GarageFeedback() {
         <form className='garage_feedback'>
             <div className='garage_block'>
                 <h3>Имя</h3>
-                <input type='text' name='firstname'/>
+                <input type='text' name='firstname' required='true'/>
                 <h3>Фамилия</h3>
-                <input type='text' name='lastname'/>
+                <input type='text' name='lastname' required='true'/>
                 <h3>Почта</h3>
-                <input type='email' name='email'/>
+                <input type='email' name='email' required='true'/>
                 <div className='garage_submit' align='right'><input type='submit' name='Отправить'/></div>
             </div>
             <div>
-                <textarea>Напишите отзыв...</textarea>
+                <textarea className='garage_textarea' rows='20' cols='50' required='true'>Напишите отзыв...</textarea>
             </div>
         </form>
     );

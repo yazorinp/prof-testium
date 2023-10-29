@@ -2,6 +2,8 @@ import React from 'react';
 import {viewHeader, viewHeaderBottom} from "../header/header";
 import {viewGarage} from "../garage/garage";
 
+import '../style.css';
+
 class Root extends React.Component {
     constructor(props) {
         super(props);
@@ -13,7 +15,9 @@ class Root extends React.Component {
             <div>
                 {viewHeader()}
                 {viewHeaderBottom()}
-                <h1>Доброе утро!</h1>
+                <div className='body'>
+                    <h1>Доброе утро</h1>
+                </div>
                 {viewGarage()}
             </div>
         );

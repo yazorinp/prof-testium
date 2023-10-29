@@ -4,9 +4,10 @@ import {Link} from 'react-router-dom';
 import './header.css';
 
 import {viewLogoHref} from "../logo/logo";
+import {viewSignInOut} from "../autorize/autorize";
 
 
-function viewHeader(logo = viewLogoHref(), special_logo = '', autorize = '') {
+function viewHeader(logo = viewLogoHref(), special_logo = '', autorize = viewSignInOut()) {
     return (
         <div className='header'>
             <div>{logo}</div>
@@ -26,7 +27,7 @@ const defaultSelector = [
     <Link to='/'><h3>Отзывы</h3></Link>,
     <Link to='/'><h3>Поддержка</h3></Link>,
     <Link to='/'><h3>Регистрация новой школы</h3></Link>,
-    <Link to='/'><h3>О себе</h3></Link>,
+    <Link to='/about'><h3>О себе</h3></Link>,
 ];
 
 function viewHeaderBottom(lst = defaultSelector) {

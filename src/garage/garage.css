@@ -1,5 +1,5 @@
 .garage {
-    width: 100%;
+    width: 90%;
     margin: auto;
 
     border-top: black 1px solid;
@@ -32,4 +32,8 @@
 
 .garage_submit {
     padding: 10px;
+}
+
+.garage_textarea {
+    resize: none;
 }
