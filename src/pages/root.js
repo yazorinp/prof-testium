@@ -1,7 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Header from '../det/header'
-
 
 class Root extends React.Component {
     constructor(props) {
@@ -13,7 +11,6 @@ class Root extends React.Component {
         return (
             <div>
                 <Header/>
-                <h1>Help</h1>
             </div>
         );
     }

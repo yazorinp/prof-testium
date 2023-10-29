@@ -4,6 +4,18 @@ import './header.css';
 import Logo from '../images/logo.png'
 
 
+const defaultSection = [
+    <Link to='/'><h3>Главная</h3></Link>,
+    <Link to='/bugs'><h3>Возможности</h3></Link>,
+    <Link to='/bugs'><h3>Тарифы</h3></Link>,
+    <Link to='/bugs'><h3>Внедрение</h3></Link>,
+    <Link to='/bugs'><h3>Отзывы</h3></Link>,
+    <Link to='/bugs'><h3>Поддержка</h3></Link>,
+    <Link to='/bugs'><h3>Зарегистрировать новую школу</h3></Link>,
+    <Link to='/bugs'><h3>О себе</h3></Link>,
+];
+
+
 class Header extends React.Component {
     constructor(props) {
         super(props);
@@ -32,10 +44,14 @@ class Header extends React.Component {
     }
 
 
+
+
+
     viewSection() {
         let section = this.props['section'];
-        if (section === undefined)
-            section = [<p>Главная</p>, <p>Возможности</p>];
+        if (section === undefined || section == 'default') {
+            section = defaultSection;
+        }
 
         return (
             <table className='section'>
