@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7453262d-e27d-41f4-94a6-8b4dd83d4c06" name="Changes" comment="Add bugs.js, delete route.js. Modified Header">
-      <change afterPath="$PROJECT_DIR$/src/autorize/autorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/garage/garage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/garage/garage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/garage/garage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/garage/garage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/root.js" afterDir="false" />
-    </list>
+    <list default="true" id="7453262d-e27d-41f4-94a6-8b4dd83d4c06" name="Changes" comment="Add bugs.js, delete route.js. Modified Header" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698516657942</updated>
       <workItem from="1698516658940" duration="1785000" />
-      <workItem from="1698545143855" duration="26131000" />
+      <workItem from="1698545143855" duration="26748000" />
     </task>
     <task id="LOCAL-00001" summary="Create header.js">
       <option name="closed" value="true" />
